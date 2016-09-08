@@ -1,0 +1,11 @@
+[package]
+name = "backup-capnp"
+version = "0.1.0"
+authors = ["Chris MacNaughton <chmacnaughton@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+capnp = "0.7"
+
+[build-dependencies]
+capnpc = "0.7"
